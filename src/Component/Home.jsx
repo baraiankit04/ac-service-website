@@ -561,12 +561,13 @@ const acBrands = [
         </p>
 
         <h2 className="fw-bold">
-          AC Service Near You
-        </h2>
+  AC Repair & Service Across Mumbai, Navi Mumbai & Thane
+</h2>
 
-        <p className="text-muted">
-          We provide AC repair and service support in multiple locations.
-        </p>
+<p className="text-muted">
+  Book AC repair, cleaning, installation and maintenance services
+  across Mumbai, Navi Mumbai, Thane and nearby areas.
+</p>
 
       </div>
     </div>

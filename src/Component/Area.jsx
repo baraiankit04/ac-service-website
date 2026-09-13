@@ -23,7 +23,8 @@ const Area = () => {
 
   const [search, setSearch] = useState("");
 
-  const areas = [
+const serviceAreas = {
+  "Navi Mumbai": [
     "Vashi",
     "Sanpada",
     "Nerul",
@@ -36,7 +37,34 @@ const Area = () => {
     "Turbhe",
     "Juinagar",
     "Ulwe",
-  ];
+  ],
+
+  Mumbai: [
+    "Andheri",
+    "Bandra",
+    "Borivali",
+    "Dadar",
+    "Goregaon",
+    "Malad",
+    "Powai",
+    "Kurla",
+    "Ghatkopar",
+    "Chembur",
+    "Mulund",
+    "Bhandup",
+  ],
+
+  Thane: [
+    "Thane West",
+    "Thane East",
+    "Majiwada",
+    "Wagle Estate",
+    "Hiranandani Estate",
+    "Kopri",
+    "Kalwa",
+    "Mumbra",
+  ],
+};
 
   const filteredAreas = areas.filter((area) =>
     area.toLowerCase().includes(search.toLowerCase())
