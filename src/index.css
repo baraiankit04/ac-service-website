@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-link {
+  color: white;
+  margin-left: 10px;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107;
+}
+
+.navbar .nav-link.active {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+section {
+  overflow: hidden;
+}
