@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ac-service-website-tan.vercel.app/sitemap.xml
